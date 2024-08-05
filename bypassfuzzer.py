@@ -15,7 +15,7 @@ PAYLOADS_DIR = f"{SCRIPT_DIR}/core/payloads"
 HDR_PAYLOADS_TEMPLATE = f"{PAYLOADS_DIR}/header_payload_templates.txt"
 IP_PAYLOADS_FILE = f"{PAYLOADS_DIR}/ip_payloads.txt"
 URL_PAYLOADS_FILE = f"{PAYLOADS_DIR}/url_payloads.txt"
-DB_DIR = f"{SCRIPT_DIR}/interactions"
+DB_DIR = "/tmp/interactions"
 
 # Load banner
 with open(f"{SCRIPT_DIR}/core/banner.txt", "r", encoding="UTF-8") as inf:
